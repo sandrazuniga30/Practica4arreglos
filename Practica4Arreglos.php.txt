@@ -1,0 +1,76 @@
+<html>
+	<head><title> Pratica 4</title></head>
+		<body>
+
+			<form>
+				<table>
+					<tr>
+						<th>CANT.</th>
+						<th>DESCRIPCI&Oacute;N</th>
+						<th>PR&Eacute;CIO U.</th>
+						<th>OPCIONES</th>
+						
+					<tr>
+					<?php
+		   $productos = array(
+									"id" => "1",
+									"descripcion" =>"papas",
+									"precio" =>"8.50",
+									
+									"id1" => "2",
+									"descripcion1" =>"Refresco",
+									"precio1" =>"22",
+									
+									"id2" => "3",
+									"descripcion2" =>"Huevo",
+									"precio2" =>"14.50",
+							
+									"id3" => "4",
+									"descripcion3" =>"jugo",
+									"precio3" =>"17",
+						
+									
+								);
+					?>
+					
+                         <td> <?php echo $productos ['id']; ?>  </td>
+                         <td><?php echo $productos ['descripcion']; ?></td>
+                         <td><?php echo $productos ['precio']; ?>  </td>
+                         <td> <a href="Editar.html">Editar</a>    <a href="Eliminar.html">Eliminar</a></td>                                 
+                         </td>
+                            </tr>
+							
+						<tr>
+					
+					
+                         <td> <?php echo $productos ['id1']; ?>  </td>
+                         <td><?php echo $productos ['descripcion1']; ?></td>
+                         <td><?php echo $productos ['precio1']; ?>  </td>
+				  <td> <a href="Editar.html">Editar</a>    <a href="Eliminar.html">Eliminar</a></td> 
+                         <td>                                  
+                         </td>
+                            </tr>
+						
+				
+                         <td> <?php echo $productos ['id2']; ?>  </td>
+                         <td><?php echo $productos ['descripcion2']; ?></td>
+                         <td><?php echo $productos ['precio2']; ?>  </td>
+				  <td> <a href="Editar.html">Editar</a>    <a href="Eliminar.html">Eliminar</a></td> 
+                         <td>                                  
+                         </td>
+                            </tr>
+							
+					
+                         <td> <?php echo $productos ['id3']; ?>  </td>
+                         <td><?php echo $productos ['descripcion3']; ?></td>
+                         <td><?php echo $productos ['precio3']; ?>  </td>
+				  <td> <a href="Editar.html">Editar</a>    <a href="Eliminar.html">Eliminar</a></td> 
+                         <td>                                  
+                         </td>
+                            </tr>
+						
+					</tr>
+				</table>
+			</form>
+		</body>
+</html>
