@@ -1,3 +1,4 @@
+//arreglos
 <html>
 	<head><title> Pratica 4</title></head>
 		<body>
